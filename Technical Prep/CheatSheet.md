@@ -7,6 +7,7 @@
 4. [Interview Stages Cheat Sheet](#interview-stages-cheat-sheet)
 5. [Code Templates](#code-templates)
 6. [Practice Resources](#practice-resources)
+7. [Input Sizes vs Time Complexity](#input-sizes-vs-time-complexity)
 
 ---
 
@@ -68,7 +69,7 @@ Given `n = dic.length`,
 - Access or modify value associated with key: $O(1)$
 - Iterate over all keys, values, or both: $O(n)$
 
-> **Note**: The $O(1)$ operations are constant relative to `n`. In reality, the hashing algorithm might be expensive. For example, if your keys are strings, then it will cost $O(m)$ where $m$ is the length of the string. The operations only take constant time relative to the size of the hash map.
+> **Note**: The $O(1)$ operations are constant relative to `n`. In reality, the hashing algorithm might be expensive. For example, if your keys are strings, then it will cost $O(m)$ where `m` is the length of the string. The operations only take constant time relative to the size of the hash map.
 
 ---
 
@@ -145,17 +146,17 @@ Given `n = heap.length` and talking about min heaps,
 
 **Binary search**
 
-Binary search runs in $O(\log n)$ in the worst case, where $n$ is the size of your initial search space.
+Binary search runs in $O(\log n)$ in the worst case, where `n` is the size of your initial search space.
 
 ---
 
 **Miscellaneous**
 
-- Sorting: $O(n \cdot \log n)$, where $n$ is the size of the data being sorted
-- DFS and BFS on a graph: $O(n \cdot k + e)$, where $n$ is the number of nodes, $e$ is the number of edges, if each node is handled in $O(1)$ other than iterating over edges
+- Sorting: $O(n \cdot \log n)$, where `n` is the size of the data being sorted
+- DFS and BFS on a graph: $O(n \cdot k + e)$, where `n` is the number of nodes, `e` is the number of edges, if each node is handled in $O(1)$ other than iterating over edges
 - DFS and BFS space complexity: typically $O(n)$, but if it's in a graph, might be $O(n + e)$ to store the graph
-- Dynamic programming time complexity: $O(n \cdot k)$, where $n$ is the number of states and $k$ is the work done at each state
-- Dynamic programming space complexity: $O(n)$, where $n$ is the number of states
+- Dynamic programming time complexity: $O(n \cdot k)$, where `n` is the number of states and `k` is the work done at each state
+- Dynamic programming space complexity: $O(n)$, where `n` is the number of states
 
 ---
 
