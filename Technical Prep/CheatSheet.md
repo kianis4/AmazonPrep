@@ -342,76 +342,7 @@ Questions you should be prepared to answer:
 - Be interested, smile, and ask follow-up questions to your interviewer's responses.
 
 
-
-### **Common Operations by Data Structure**
-#### **Arrays (Dynamic Array/List)**
-| Operation                               | Complexity       |
-|----------------------------------------|------------------|
-| Add/remove element at the end           | O(1) amortized   |
-| Add/remove element at arbitrary index   | O(n)             |
-| Access/modify element                   | O(1)             |
-| Check if element exists                 | O(n)             |
-| Build a prefix sum                      | O(n)             |
-| Finding sum of a subarray with prefix   | O(1)             |
-
-#### **Strings (Immutable)**
-| Operation                               | Complexity       |
-|----------------------------------------|------------------|
-| Add/remove character                    | O(n)             |
-| Access element                          | O(1)             |
-| Concatenate two strings                 | O(n + m)         |
-| Create substring                        | O(m)             |
-
-#### **Linked Lists**
-| Operation                               | Complexity       |
-|----------------------------------------|------------------|
-| Add/remove element at pointer location  | O(1)             |
-| Add/remove element without pointer      | O(n)             |
-| Check if element exists                 | O(n)             |
-| Reverse a sublist                       | O(j - i)         |
-| Detect a cycle (fast/slow pointers)     | O(n)             |
-
-#### **Hash Table/Dictionary**
-| Operation                               | Complexity       |
-|----------------------------------------|------------------|
-| Add/remove key-value pair               | O(1)             |
-| Check if key exists                     | O(1)             |
-| Check if value exists                   | O(n)             |
-
-#### **Binary Search Tree**
-| Operation                               | Complexity       |
-|----------------------------------------|------------------|
-| Add/Remove element (average)            | O(log n)         |
-| Add/Remove element (worst)              | O(n)             |
-| Check if element exists                 | O(log n)         |
-
-#### **Heap/Priority Queue**
-| Operation                               | Complexity       |
-|----------------------------------------|------------------|
-| Add an element                          | O(log n)         |
-| Delete the minimum element              | O(log n)         |
-| Find the minimum element                | O(1)             |
-
-#### **Binary Search**
-| Operation                               | Complexity       |
-|----------------------------------------|------------------|
-| Search                                  | O(log n)         |
-
-## 🗂 **Sorting Algorithms**
-### **Complexity Comparison**
-| Algorithm       | Best       | Average    | Worst      | Space | Stable |
-|-----------------|------------|------------|------------|-------|--------|
-| QuickSort       | O(n log n) | O(n log n) | O(n^2)     | O(log n) | No     |
-| MergeSort       | O(n log n) | O(n log n) | O(n log n) | O(n)   | Yes    |
-| HeapSort        | O(n log n) | O(n log n) | O(n log n) | O(1)   | No     |
-| BubbleSort      | O(n)       | O(n^2)     | O(n^2)     | O(1)   | Yes    |
-| InsertionSort   | O(n)       | O(n^2)     | O(n^2)     | O(1)   | Yes    |
-
-![Sorting Algorithms Chart](/Technical%20Prep/Leetcode%20CheatSheet/Sorting%20algorithms.png)
-
----
-
-## 🧩 **Code Templates**
+## **Code Templates**
 ### **Two Pointers: One Input, Opposite Ends**
 ```python
 def fn(arr):
@@ -842,8 +773,9 @@ while heap:
 
 ---
 
-## 🌟 **Practice Resources**
+## **Practice Resources**
 - [LeetCode CheatSheets](https://leetcode.com/explore/interview/card/cheatsheets/720/resources/4723/)
+-[Amazon Leadership Principles](https://www.amazon.jobs/content/en/our-workplace/leadership-principles)
 
 ---
 
