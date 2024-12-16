@@ -10,7 +10,7 @@
 ---
 
 ## 📊 **Time Complexity (Big O) Cheat Sheet**
-![Time Complexity Chart](file-FMo2ac5QgvkwNcwFTpu5eS.png)
+![Time Complexity Chart](/Technical%20Prep/Leetcode%20CheatSheet/Time%20complexity%20(Big%20O)%20Chart.png)
 
 ### **Common Operations by Data Structure**
 #### **Arrays (Dynamic Array/List)**
@@ -57,7 +57,7 @@
 ---
 
 ## 🛠 **General DS/A Flowchart**
-![General DS/A Flowchart](file-W1PDbMBh6mRi2R4hZCpZnb.png)
+![General DS/A Flowchart](/Technical%20Prep/Leetcode%20CheatSheet/General%20DS:A%20flowchart.png)
 
 This flowchart helps decide the **right algorithm or data structure** based on problem requirements.
 
@@ -73,7 +73,7 @@ This flowchart helps decide the **right algorithm or data structure** based on p
 | BubbleSort      | O(n)       | O(n^2)     | O(n^2)     | O(1)   | Yes    |
 | InsertionSort   | O(n)       | O(n^2)     | O(n^2)     | O(1)   | Yes    |
 
-![Sorting Algorithms Chart](file-Gyp7t1w32dmreKq7DpHGsZ.png)
+![Sorting Algorithms Chart](/Technical%20Prep/Leetcode%20CheatSheet/Sorting%20algorithms.png)
 
 ---
 
