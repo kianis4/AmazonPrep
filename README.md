@@ -1,131 +1,184 @@
 # Amazon Interview Prep
 
-Welcome to the **Amazon Interview Prep** repository! This is your comprehensive guide to acing the Amazon Online Assessment (OA) and interview process. It is designed to prepare you for all the rounds, with a focus on coding challenges, leadership principles, work simulation scenarios, and behavioral assessments.
+Welcome to the **Amazon Interview Prep** repository! This guide is designed to help you systematically prepare for all stages of the Amazon Software Development Engineer (SDE) hiring process, including:
+
+- **Online Assessment (OA)**: Coding, Workstyles Assessment, and Work Simulation.
+- **Behavioral Interviews**: STAR-method preparation tailored to Amazon’s Leadership Principles.
+- **Technical Interviews**: Algorithm and data structure problems and debugging exercises.
 
 ---
 
 ## **Table of Contents**
+
 1. [Overview](#overview)
 2. [Repository Structure](#repository-structure)
-3. [Amazon Leadership Principles](#amazon-leadership-principles)
-4. [Coding Challenges](#coding-challenges)
-5. [Work Simulation and Workstyles Assessment](#work-simulation-and-workstyles-assessment)
+3. [Amazon Online Assessment (OA) Breakdown](#amazon-online-assessment-oa-breakdown)
+4. [Technical Preparation](#technical-preparation)
+    - [Core Algorithms and Data Structures](#core-algorithms-and-data-structures)
+    - [Problem Categories](#problem-categories)
+    - [Debugging](#debugging)
+5. [Amazon Leadership Principles](#amazon-leadership-principles)
 6. [Behavioral Interview Preparation](#behavioral-interview-preparation)
-7. [How to Use This Repository](#how-to-use-this-repository)
-8. [Contributing](#contributing)
-9. [Resources](#resources)
+7. [Work Simulation and Workstyles Assessment](#work-simulation-and-workstyles-assessment)
+8. [General Interview Tips](#general-interview-tips)
+9. [Contributing](#contributing)
+10. [Resources](#resources)
 
 ---
 
 ## **Overview**
 
-This repository is designed to provide a step-by-step preparation guide for the Amazon interview process. It includes:
-- Detailed study guides for Amazon’s **Leadership Principles**.
-- A curated list of coding challenges to master algorithms, data structures, and debugging.
-- Frameworks for **Work Simulation** scenarios and decision-making exercises.
-- Behavioral interview preparation aligned with Amazon's **Leadership Principles**.
+This repository provides resources and strategies for the Amazon SDE interview process, emphasizing:
+1. **Coding Proficiency**: Mastery of algorithms and data structures to solve coding challenges.
+2. **Leadership Principles**: Understanding and applying Amazon's core values.
+3. **Work Simulation**: Decision-making and prioritization aligned with Amazon’s workflows.
 
-Whether you're preparing for an entry-level position or an experienced role, this guide provides a structured path to success.
+It includes study materials, coding challenges, mock scenarios, and behavioral question frameworks.
 
 ---
 
 ## **Repository Structure**
 
-The repository is organized into the following sections:
+- **1. Leadership Principles**:
+  - A study guide to internalize and apply Amazon’s Leadership Principles using the **CUSTOMER FIRST** acronym.
 
-- **1. Leadership Principles Guide**
-  - A detailed guide to mastering Amazon’s 16 Leadership Principles, complete with acronyms, memory aids, and practical examples.
-  
-- **2. Coding Challenges**
-  - Curated LeetCode-style problems covering:
-    - Arrays, Strings, Sliding Window, Binary Search, Trees, Graphs, and Dynamic Programming.
-  - Debugging problems for the OA coding round.
+- **2. Coding Challenges**:
+  - A curated list of problems for algorithmic thinking, data structures, and debugging.
 
-- **3. Work Simulation and Workstyles Assessment**
-  - Explanation of the “Day in the Life” simulation format.
-  - Mock scenarios aligned with Amazon’s **Customer Obsession** and decision-making frameworks.
-  - Tips for navigating the workstyles assessment and understanding Amazon’s cultural expectations.
+- **3. Work Simulation**:
+  - Mock scenarios with decision-making exercises.
 
-- **4. Behavioral Interview Preparation**
-  - STAR method-based responses tailored to each leadership principle.
-  - Examples and templates for structuring responses.
+- **4. Behavioral Preparation**:
+  - STAR-method examples tailored to Amazon's principles.
+
+---
+
+## **Amazon Online Assessment (OA) Breakdown**
+
+The OA consists of four parts:
+1. **Coding Assessment** (70 minutes): Solve two problems. 
+   - Focus on algorithms and data structures.
+   - Allowed to use public online resources (e.g., Java API), but no login-required or private sources.
+
+2. **Workstyles Assessment** (15 minutes): Select statements that best align with your work style.
+   - No preparation needed; answers should reflect Amazon’s Leadership Principles.
+
+3. **Work Simulation** (60 minutes): Interactive tasks simulating a day in the life of an SDE.
+   - Requires prioritization, decision-making, and problem-solving aligned with Amazon’s values.
+
+4. **Feedback Survey** (5 minutes): Share your experience.
+
+**Important Notes**:
+- Use a webcam and have ID ready.
+- Complete all sections in one sitting.
+- Deadlines are strict; plan accordingly.
+
+---
+
+## **Technical Preparation**
+
+Amazon’s technical interviews emphasize problem-solving skills, clarity of thought, and coding proficiency. This section breaks down the preparation steps systematically.
+
+### **Core Algorithms and Data Structures**
+Focus on these key topics, which are common in Amazon’s OA and technical interviews:
+
+| **Topic**               | **Key Problems to Solve**                                  | **Example Problems**                        |
+|-------------------------|----------------------------------------------------------|--------------------------------------------|
+| **Arrays**              | Sliding window, prefix sum, sorting                      | Two Sum, Maximum Subarray, Merge Intervals |
+| **Strings**             | Substrings, pattern matching, anagrams                   | Longest Substring Without Repeating Chars  |
+| **Hashmaps**            | Frequency counts, lookups                                | Group Anagrams, Longest Consecutive Sequence |
+| **Linked Lists**        | Fast/slow pointers, reversing, merging                   | Merge Two Sorted Lists, Detect Cycle       |
+| **Binary Search**       | Divide and conquer, rotated arrays                       | Search in Rotated Sorted Array             |
+| **Trees and Graphs**    | BFS, DFS, recursion                                      | Lowest Common Ancestor, Number of Islands  |
+| **Dynamic Programming** | Subproblems, memoization                                 | House Robber, Longest Palindromic Substring |
+| **Greedy Algorithms**   | Optimization problems                                    | Jump Game, Interval Scheduling             |
+
+---
+
+### **Problem Categories**
+
+#### **1. Arrays and Strings**
+- **Key Concepts**: Sorting, sliding window, prefix sums.
+- **Practice Problems**:
+  - **Easy**: Two Sum, Valid Palindrome.
+  - **Medium**: Longest Substring Without Repeating Characters.
+  - **Hard**: Median of Two Sorted Arrays.
+
+#### **2. Sliding Window Problems**
+- **Key Concept**: Dynamic range queries.
+- **Example**: Minimum Window Substring, Maximum Sliding Window.
+
+#### **3. Trees and Graphs**
+- **Key Concepts**: BFS, DFS, recursion, shortest paths.
+- **Practice Problems**:
+  - BFS/DFS: Number of Islands.
+  - Binary Tree: Invert Binary Tree.
+
+#### **4. Dynamic Programming**
+- **Key Concepts**: Subproblems, optimal substructure.
+- **Example Problems**:
+  - Longest Palindromic Substring.
+  - 0/1 Knapsack Problem.
+
+#### **5. Debugging**
+- Practice identifying syntax, logical, and runtime errors.
+- Example: [Debugging Questions on aonecode.com](https://aonecode.com/amazon-online-assessment-debugging-questions).
 
 ---
 
 ## **Amazon Leadership Principles**
 
-Amazon’s 16 Leadership Principles are integral to all aspects of the interview process. They reflect Amazon’s culture and decision-making approach. This repository includes:
-- **CUSTOMER FIRST Acronym:** An easy-to-remember grouping for all principles.
-- Real-world scenarios and practical examples for each principle.
-- A full **study guide** in the `amazon_leadership_principles_study_guide.md` file.
+Amazon’s 16 Leadership Principles are the foundation of their culture and hiring process. This repository includes:
+- **CUSTOMER FIRST Acronym**: A guide for easy memorization.
+- STAR-method examples for behavioral interviews.
 
-> 📄 **File:** [`LPStudyGuide.md`](/Leadership%20Principles/Study%20Guide/LPStudyGuide.md)
-
----
-
-## **Coding Challenges**
-
-To prepare for the OA, this section includes:
-- **Timed Practice Problems:** Mimic the 70-minute coding challenge format.
-- **Topics Covered:**
-  - Arrays & Strings
-  - Sliding Window
-  - Binary Search
-  - Trees & Graphs
-  - Dynamic Programming
-- **Debugging Practice:** Solve 7 quick code-fix problems in under 21 minutes.
-
-> 📄 **Folder:** `coding_challenges/`
-
----
-
-## **Work Simulation and Workstyles Assessment**
-
-These rounds test your ability to make decisions aligned with Amazon’s values. This section includes:
-- Mock scenarios requiring trade-offs and prioritization.
-- Tips for answering personality-based questions.
-- Frameworks to navigate situations like:
-  - Prioritizing long-term customer trust over short-term goals.
-  - Making decisions with limited information.
-
-> 📄 **Folder:** `work_simulation_and_workstyles/`
+> 📄 **File:** [`amazon_leadership_principles_study_guide.md`](amazon_leadership_principles_study_guide.md)
 
 ---
 
 ## **Behavioral Interview Preparation**
 
-This section helps you craft compelling STAR responses for behavioral interview questions. Each response is tied to a specific leadership principle and includes:
-- Example scenarios.
-- Templates for structuring answers.
-- Tips for identifying patterns in your experience.
+### **STAR Method**
+Structure your responses for behavioral questions using:
+- **Situation**: Provide context.
+- **Task**: Explain the challenge.
+- **Action**: Detail your contribution.
+- **Result**: Share the outcome.
 
-> 📄 **Folder:** `behavioral_interview/`
+> Example: Demonstrating **Ownership**:
+> - **S**: Migrating legacy systems to microservices at Giftcash.
+> - **T**: Increase scalability by 15%.
+> - **A**: Designed modular systems; implemented caching.
+> - **R**: Achieved 20% faster response times.
 
 ---
 
-## **How to Use This Repository**
+## **Work Simulation and Workstyles Assessment**
 
-1. **Start with Leadership Principles**:
-   - Familiarize yourself with Amazon’s principles and identify examples from your own experience.
-   - Use the provided study guide and acronyms to solidify your understanding.
+### **Work Simulation**
+- Practice prioritizing tasks aligned with customer obsession.
+- Mock scenario:
+  - **Task**: Balancing team timelines with customer expectations.
+  - **Options**: Evaluate trade-offs and align with Amazon’s values.
 
-2. **Practice Coding Challenges**:
-   - Solve problems daily, focusing on weak areas.
-   - Simulate the OA with timed practice sessions.
+### **Workstyles Assessment**
+- Familiarize yourself with statements tied to leadership principles.
+- Example question: “I prefer to dive into the details of a problem” (aligned with **Dive Deep**).
 
-3. **Prepare for Work Simulation**:
-   - Review decision-making frameworks and practice mock scenarios.
-   - Align decisions with Amazon’s values (e.g., **Customer Obsession**).
+---
 
-4. **Structure Behavioral Responses**:
-   - Use the STAR method to structure your answers.
-   - Practice articulating examples from your past experiences.
+## **General Interview Tips**
+
+1. **Practice Mock OAs**: Simulate all OA sections in one sitting.
+2. **Code for Clarity**: Prioritize readable, maintainable code.
+3. **Review Leadership Principles**: Use STAR stories to highlight alignment.
+4. **Stay Calm**: Allocate sufficient time and minimize distractions.
 
 ---
 
 ## **Contributing**
 
-Contributions are welcome! If you have additional resources, tips, or improvements, feel free to submit a pull request. Please ensure all contributions align with Amazon’s interview process and leadership principles.
+Contributions are welcome! If you have additional resources, tips, or improvements, submit a pull request.
 
 ---
 
@@ -133,6 +186,8 @@ Contributions are welcome! If you have additional resources, tips, or improvemen
 
 - [LeetCode Amazon Interview Problems](https://leetcode.com/problemset/all/?listId=wpwgkgt)
 - [Amazon Leadership Principles](https://www.amazon.jobs/en/principles)
+- [Grokking the Coding Interview](https://www.educative.io/courses/grokking-the-coding-interview)
+- [Acing the Amazon OA](https://aonecode.com/amazon-online-assessment)
 - [STAR Method for Behavioral Interviews](https://www.thebalancecareers.com/what-is-the-star-interview-response-technique-2061629)
 
 ---
