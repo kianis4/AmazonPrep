@@ -539,36 +539,127 @@ I implemented a two-stage process: a technical interview followed by a demo tuto
 
 ## 14. **Deliver Results**
 
-**Question**: Tell me about a time when you had to handle multiple assignments.
+### **Question 1**: Describe the most challenging situation in your life and how you handled it.
 
 **Answer**:  
-**Situation**: At **Giftcash**, I was simultaneously optimizing APIs, automating workflows, and contributing to a microservices migration.  
-**Task**: I needed to balance priorities and deliver results on time.  
-**Action**: I created a detailed task plan, prioritized critical assignments, and collaborated closely with team members.  
-**Result**: All tasks were delivered on time, with measurable improvements in scalability, efficiency, and response times.
+**Situation**: At **Giftcash**, I was tasked with optimizing API workflows while simultaneously working on automating manual processes and contributing to the migration of a monolithic system to microservices—all under tight deadlines.  
+**Task**: I needed to balance multiple priorities, ensure no critical tasks were delayed, and deliver measurable improvements.  
+**Action**: I created a detailed task breakdown using **JIRA**, prioritized assignments based on urgency and impact, and collaborated closely with teammates to delegate tasks effectively. For time-intensive processes, I used automation to save manual effort wherever possible. I also communicated frequent progress updates to stakeholders to manage expectations.  
+**Result**: All tasks were delivered on time. The microservices migration increased scalability by **15%**, API optimizations reduced response times by **20%**, and workflow automation improved overall team efficiency by **30%**.
 
+---
+
+### **Question 2**: Give an example of a time when you had to handle a variety of assignments. What was the outcome?
+
+**Answer**:  
+**Situation**: At **SDI Labs**, I was simultaneously responsible for developing automated web scrapers, ensuring scraper reliability, and providing daily market data reports to stakeholders.  
+**Task**: I needed to ensure that all responsibilities were met without compromising quality or deadlines.  
+**Action**: I prioritized tasks using a structured approach:  
+- **Development** tasks (web scrapers) were handled in the early mornings to maximize focus.  
+- **Monitoring reliability** was automated using logging and alerts to minimize manual checks.  
+- **Daily reports** were streamlined using scheduling tools like **Cron Jobs** to generate automated outputs.  
+
+I also communicated with stakeholders to set expectations and adjusted workflows to address their most urgent needs.  
+**Result**: I delivered all assignments on time. The automation improved reporting reliability by **40%**, and the web scrapers achieved a **99% uptime**, providing stakeholders with consistent, timely insights.
+
+---
+
+### **Question 3**: Tell me about a time when your team gave up on something, but you pushed them to deliver results.
+
+**Answer**:  
+**Situation**: At **SKompXcel**, some tutors were overwhelmed by the workload during exam preparation season and felt that they could not complete all planned tutoring sessions in time.  
+**Task**: I needed to motivate the team, provide actionable support, and ensure that no student was left behind.  
+**Action**: I scheduled a team meeting to acknowledge their challenges and realign on our mission to help students succeed. I created a shared calendar to optimize time slots and volunteered to take on some of the sessions to reduce their load. I also introduced a "buddy system" where tutors collaborated on complex topics.  
+**Result**: The team rallied together, completed all scheduled sessions, and maintained a high-quality delivery. Feedback from students showed **90% satisfaction**, and most students achieved their exam goals.
+
+### **Key Takeaways**
+
+**Deliver Results**:  
+- **Challenging Situation**: Balanced multiple priorities at **Giftcash**, improving scalability and efficiency.  
+- **Multiple Assignments**: Automated reporting and achieved **99% uptime** at **SDI Labs**.  
+- **Pushing Results**: Supported tutors at **SKompXcel** to deliver high-quality sessions under pressure.  
 ---
 
 ## 15. **Strive to Be Earth’s Best Employer**
 
-**Question**: Give an example of a time when you developed the careers of your team.
+### **Question 1**: When was the last time you built a team? What did you consider when assembling it together?
 
 **Answer**:  
-**Situation**: At **SKompXcel**, I focused on mentoring junior tutors to improve their technical and teaching skills.  
-**Task**: I wanted to empower them to deliver high-quality mentorship.  
-**Action**: I provided regular feedback, conducted training sessions, and shared best practices for effective teaching.  
-**Result**: Tutors became more confident, and student satisfaction improved significantly.
+**Situation**: At **SKompXcel**, I needed to expand the tutoring team to meet increasing demand for technical interview prep sessions.  
+**Task**: I aimed to assemble a team that balanced technical expertise, communication skills, and a passion for mentorship.  
+**Action**: I created a structured hiring process:  
+1. **Technical Evaluation**: Candidates demonstrated their knowledge through problem-solving exercises in data structures and algorithms.  
+2. **Teaching Ability**: Candidates conducted a mock tutoring session to assess their ability to explain complex topics clearly.  
+3. **Cultural Fit**: I looked for individuals who were adaptable, empathetic, and aligned with SKompXcel’s mission of empowering students.  
+
+I prioritized diversity in the team to bring a range of perspectives to our mentorship approach.  
+**Result**: The team grew successfully with high-performing tutors. Student success rates remained at **80%**, and feedback highlighted the tutors' ability to explain concepts effectively.
+
+---
+
+### **Question 2**: Give an example of a time when you developed the careers of people on your team.
+
+**Answer**:  
+**Situation**: At **SKompXcel**, I mentored junior tutors to improve both their technical proficiency and teaching skills.  
+**Task**: My goal was to help them grow into confident educators who could provide value to students while advancing their own careers.  
+**Action**: I conducted regular feedback sessions, shared best practices for teaching complex topics, and encouraged tutors to strengthen their technical skills by solving problems on platforms like **LeetCode**. I also assigned them gradually more challenging topics to foster growth.  
+**Result**: The tutors became more confident and effective. One tutor, in particular, progressed from handling basic topics to leading advanced systems design sessions, which improved their career prospects and student satisfaction scores.
+
+---
+
+### **Question 3**: How have you managed varying strengths and weaknesses of members in your team?
+
+**Answer**:  
+**Situation**: At **SKompXcel**, I noticed that tutors had varying strengths—some excelled at problem-solving, while others were better at explaining foundational concepts.  
+**Task**: I needed to leverage their strengths while addressing their areas for improvement to ensure balanced and high-quality student outcomes.  
+**Action**: I mapped out each tutor’s strengths and aligned their sessions with topics where they performed best. To address weaknesses, I organized collaborative sessions where tutors shared strategies and mentored each other. I also provided tailored training resources for areas needing improvement.  
+**Result**: This approach improved team performance, as tutors capitalized on their strengths while actively growing in other areas. Student feedback consistently praised the quality and depth of the tutoring sessions.
+
+### **Key Takeaways**
+
+**Strive to Be Earth’s Best Employer**:  
+- **Building Teams**: Assembled a high-performing team of tutors at **SKompXcel**.  
+- **Career Development**: Mentored tutors to improve their technical and teaching abilities.  
+- **Managing Strengths**: Leveraged team strengths and addressed weaknesses for optimal performance.  
 
 ---
 
 ## 16. **Success and Scale Bring Broad Responsibility**
 
-**Question**: Give an example of a time when you left a project in a better position than you found it.
+### **Question 1**: Describe a moral or ethical dilemma you've faced in the workplace. How did you handle it?
 
 **Answer**:  
-**Situation**: At **E&S Solutions**, I automated a manual process for client follow-ups.  
-**Task**: I aimed to improve efficiency and reduce reliance on manual interventions.  
-**Action**: I developed an AWS Lambda-based automation system, tested it for robustness, and documented the workflow for future reference.  
-**Result**: The project became more efficient, reducing manual effort by **70%** and leaving a sustainable solution in place.
+**Situation**: At **E&S Solutions**, a client requested an implementation that would bypass certain best practices to meet a tight deadline, which risked compromising system reliability.  
+**Task**: I needed to balance meeting the client's needs while adhering to ethical and professional standards.  
+**Action**: I communicated my concerns to the client, explaining the potential risks of cutting corners and suggesting an alternative phased approach to meet their timeline without sacrificing quality. I provided a detailed plan with trade-offs to help them make an informed decision.  
+**Result**: The client agreed to the phased approach, and we delivered a reliable solution on time while upholding best practices.
+
+---
+
+### **Question 2**: Give an example of a time when you left a project in a better position than you found it.
+
+**Answer**:  
+**Situation**: At **E&S Solutions**, I was tasked with automating the client follow-up process, which was previously handled manually.  
+**Task**: I aimed to improve efficiency, reduce manual work, and leave a sustainable solution for the team.  
+**Action**: I developed an **AWS Lambda-based automation system** to trigger review requests automatically. I documented the workflow thoroughly, created training materials for the team, and added error logging for future maintenance.  
+**Result**: The project reduced manual effort by **70%** and became a sustainable process that the team could easily manage and scale.
+
+---
+
+### **Question 3**: What’s the largest impact you’ve had on your environment?
+
+**Answer**:  
+**Situation**: At **SKompXcel**, I recognized an opportunity to scale the mentorship program globally to help more students achieve their academic goals.  
+**Task**: I needed to implement scalable systems to manage increased demand and ensure consistent quality.  
+**Action**: I introduced **Google Cloud-based automation** for scheduling, student tracking, and reporting. I also recruited and mentored a team of high-performing tutors and expanded outreach to students worldwide.  
+**Result**: The program scaled successfully, attracting students from multiple countries and maintaining an **80% success rate**. This initiative significantly impacted students' lives by providing them with valuable mentorship and interview preparation.
+
+
+### **Key Takeaways**
+
+**Success and Scale Bring Broad Responsibility**:  
+- **Ethical Dilemma**: Delivered reliable solutions at **E&S Solutions** without cutting corners.  
+- **Leaving Projects Better**: Automated workflows at **E&S Solutions**, saving **70% manual effort**.  
+- **Largest Impact**: Scaled **SKompXcel** globally, helping students achieve success worldwide.
 
 ---
