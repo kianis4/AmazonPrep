@@ -349,26 +349,79 @@ I implemented a two-stage process: a technical interview followed by a demo tuto
 
 ## 9. **Bias for Action**
 
-**Question**: Describe a situation when you took the initiative to correct a problem.
+### **Question 1**: Provide an example of when you took a calculated risk.
 
 **Answer**:  
-**Situation**: At **SDI Labs**, the team needed market data quickly, but manual data aggregation was slow and error-prone.  
-**Task**: I needed to create a solution to automate data collection.  
-**Action**: I developed Ruby on Rails-based web scrapers and deployed them using Docker to collect data from over 20 sources.  
-**Result**: The process became **40% faster**, enabling real-time market insights.
+**Situation**: At **SKompXcel**, our existing manual scheduling system for tutoring sessions was prone to errors and double bookings, which frustrated students and tutors.  
+**Task**: I needed to replace the manual process with an automated system. However, automating the system mid-semester posed risks of disrupting active tutoring sessions.  
+**Action**: I analyzed the existing pain points and worked after hours to develop a proof-of-concept solution using **Google Cloud's Calendar API** for automated scheduling. I tested the system rigorously with a small group of tutors and students to ensure it worked seamlessly before rolling it out to everyone.  
+**Result**: The risk paid off. Scheduling errors were eliminated, and session management became significantly smoother. Tutor and student satisfaction increased, and the system scaled effectively as we onboarded new clients.
+
+---
+
+### **Question 2**: Describe a situation when you took the initiative to correct a problem or a mistake rather than waiting for someone else to do it.
+
+**Answer**:  
+**Situation**: At **SDI Labs**, the team relied on manual data aggregation for market research. This process was slow, error-prone, and often delayed insights for stakeholders.  
+**Task**: I recognized the issue and decided to proactively address it, even though automating workflows wasn’t formally part of my role.  
+**Action**: I developed a solution using **Ruby on Rails** and deployed it with **Docker** for scalability. I implemented robust error handling to ensure reliability and added IP rotation to bypass anti-scraping mechanisms.  
+**Result**: The automated scrapers collected data from over **20 sources** and reduced data aggregation time by **40%**, enabling real-time market insights. This initiative helped the team meet tight deadlines consistently.
+
+---
+
+### **Question 3**: Tell me about a time when you required some information from somebody else, but they weren't responsive. What did you do?
+
+**Answer**:  
+**Situation**: At **Giftcash**, I needed access to detailed API logs to diagnose a performance bottleneck, but the DevOps team responsible for managing the logs was delayed due to competing priorities.  
+**Task**: Instead of waiting and risking project delays, I needed to find an alternative way to gather the necessary information.  
+**Action**: I researched other available monitoring tools and discovered that **AWS CloudWatch** logs could provide similar insights. I configured CloudWatch to capture relevant API data, analyzed the logs, and identified inefficient database queries as the root cause of the bottleneck.  
+**Result**: By taking initiative, I solved the issue without relying on the DevOps team. The optimized database queries reduced API response times by **20%**, and I documented the approach for future troubleshooting.
+
+### **Key Takeaways**  
+
+**Bias for Action**:  
+- **Calculated Risk**: Automated scheduling at **SKompXcel**, eliminating errors and improving satisfaction.  
+- **Initiative**: Automated data aggregation at **SDI Labs**, making the process **40% faster**.  
+- **Proactive Problem Solving**: Leveraged AWS CloudWatch at **Giftcash** to reduce API response times by **20%**.  
 
 ---
 
 ## 10. **Frugality**
 
-**Question**: Tell me about a time when you had to reduce costs.
+### **Question 1**: Describe a time when you had to rely on yourself to complete a task.
 
 **Answer**:  
-**Situation**: At **E&S Solutions**, AWS costs were rising with increased client onboarding.  
-**Task**: I needed to optimize workflows to reduce unnecessary expenses.  
-**Action**: I implemented monitoring tools, optimized Lambda functions, and applied S3 lifecycle policies to manage storage costs.  
-**Result**: AWS costs were reduced by **20%**, ensuring efficient resource usage.
+**Situation**: At **SKompXcel**, I was tasked with designing a new student performance tracking system, but the budget did not allow for external tools or additional developer support.  
+**Task**: I needed to create a reliable and cost-effective solution using only available resources.  
+**Action**: I built a tracking system using **Google Sheets** integrated with Google Apps Script for automation. I customized features like real-time progress tracking, automated reports, and data visualization dashboards to provide valuable insights.  
+**Result**: The system was implemented successfully with **zero cost**, and it significantly improved how we monitored and reported student progress.
 
+---
+
+### **Question 2**: Tell me about a time when you had to be frugal.
+
+**Answer**:  
+**Situation**: At **E&S Solutions**, AWS costs were increasing due to inefficient workflows as new clients were onboarded.  
+**Task**: I needed to reduce expenses while maintaining system performance and reliability.  
+**Action**: I implemented **AWS monitoring tools** to analyze cost drivers, optimized Lambda function runtimes to minimize execution time, and applied **S3 lifecycle policies** to archive infrequently accessed data. I also ensured all unused resources were identified and decommissioned.  
+**Result**: These changes reduced AWS costs by **20%**, making our workflows more cost-effective without sacrificing performance.
+
+---
+
+### **Question 3**: Tell me about a time when you had to rely on yourself to complete a project.
+
+**Answer**:  
+**Situation**: At **SDI Labs**, I was responsible for developing web scrapers to automate market data collection, but the project required expertise in new technologies that the team had not worked with before.  
+**Task**: With limited team knowledge and resources, I needed to independently learn and implement the solution.  
+**Action**: I researched and self-studied **Puppeteer**, Docker, and IP rotation strategies. I prototyped, tested, and iterated until the web scrapers worked reliably. I also ensured the system was scalable by implementing error handling and logging for long-term maintenance.  
+**Result**: The project was completed successfully. The automated scrapers improved efficiency by **40%**, enabling the team to meet deadlines consistently. My self-reliance and proactive learning delivered a scalable, high-impact solution.
+
+### **Key Takeaways**
+
+**Frugality**:  
+- **Self-Reliance**: Built a zero-cost student tracking system using **Google Apps Script** at **SKompXcel**.  
+- **Cost Optimization**: Reduced AWS costs by **20%** at **E&S Solutions** through optimizations and monitoring.  
+- **Independent Project Completion**: Learned new tools and implemented web scrapers at **SDI Labs**, improving efficiency by **40%**.
 ---
 
 ## 11. **Earn Trust**
