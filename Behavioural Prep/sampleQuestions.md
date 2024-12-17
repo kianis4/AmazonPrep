@@ -3,24 +3,33 @@
 # Table of Contents
 
 1. [Customer Obsession](#1-customer-obsession)  
+
 2. [Ownership](#2-ownership)  
 3. [Invent and Simplify](#3-invent-and-simplify)  
+
 4. [Are Right, A Lot](#4-are-right-a-lot)  
 5. [Learn and Be Curious](#5-learn-and-be-curious)  
+
 6. [Hire and Develop the Best](#6-hire-and-develop-the-best)  
 7. [Insist on the Highest Standards](#7-insist-on-the-highest-standards)  
+
 8. [Think Big](#8-think-big)  
 9. [Bias for Action](#9-bias-for-action)  
+
 10. [Frugality](#10-frugality)  
 11. [Earn Trust](#11-earn-trust)  
+
 12. [Dive Deep](#12-dive-deep)  
 13. [Have Backbone; Disagree and Commit](#13-have-backbone-disagree-and-commit)  
+
 14. [Deliver Results](#14-deliver-results)  
 15. [Strive to Be Earth’s Best Employer](#15-strive-to-be-earths-best-employer)  
+
 16. [Success and Scale Bring Broad Responsibility](#16-success-and-scale-bring-broad-responsibility)
 
 ---
 
+---
 ## 1. **Customer Obsession**
 
 ### **Question 1**: Who was your most difficult customer?  
@@ -59,12 +68,14 @@ I also established office hours where students could drop in for quick clarifica
 ---
 
 ### **Key Takeaways**  
+
 - **Most Difficult Customer**: Rebuilding trust with a skeptical student by tailoring learning to their needs.  
 - **Missed Expectations**: Adjusting pace and content delivery for a struggling student through personalized plans.  
 - **Prioritizing Needs**: Implementing a structured system to triage priorities, schedule effectively, and address all students' concerns.
 
 ---
 
+---
 ## 2. **Ownership**
 
 ### **Question 1**: Tell me about a time when you took on a task that was beyond your job responsibilities.
@@ -98,12 +109,14 @@ I also established office hours where students could drop in for quick clarifica
 ---
 
 ### **Key Takeaways**  
+
 - **Beyond Job Responsibilities**: Automated manual processes at **E&S Solutions** to save **70% effort**.  
 - **Unclear Responsibilities**: Proactively optimized API performance at **Giftcash**, reducing response times by **20%**.  
 - **Challenging Projects**: Built scalable web scrapers at **SDI Labs**, improving operational efficiency by **40%**.
 
 ---
 
+---
 ## 3. **Invent and Simplify**
 
 ### **Question 1**: Describe a time when you found a simple solution to a complex problem.
@@ -140,12 +153,14 @@ I learned the importance of balancing simplicity with functionality. In the futu
 ---
 
 ### **Key Takeaways**  
+
 - **Simple Solution**: Streamlined API workflows at **Giftcash**, improving efficiency by **25%**.  
 - **Invented Something**: Automated manual review processes at **E&S Solutions**, saving **70% effort**.  
 - **Learned from Failure**: Realized the importance of incremental changes and modular design during a data scraping project at **SDI Labs**.
 
 ---
 
+---
 ## 4. **Are Right, A Lot**
 
 ### **Question 1**: Tell me about a time when you effectively used your judgment to solve a problem.
@@ -179,12 +194,14 @@ I learned the importance of balancing simplicity with functionality. In the futu
 ---
 
 ### **Key Takeaways**  
+
 - **Effective Judgment**: Optimized database performance at **Giftcash**, reducing response times by **20%** and enabling a smooth transition to microservices.  
 - **Working with Incomplete Data**: Improved SQL query efficiency at **SDI Labs** by profiling and trial-and-error, reducing query times by **20%**.  
 - **Being Wrong and Learning**: Learned to prioritize impactful automation at **SKompXcel**, reducing scheduling errors by **30%** and improving reliability.
 
 ---
 
+---
 ## 5. **Learn and Be Curious**
 
 ### **Question 1**: Tell me about an important lesson you learned over the past year.
@@ -218,12 +235,14 @@ I learned the importance of balancing simplicity with functionality. In the futu
 ---
 
 ### **Key Takeaways**  
+
 - **Important Lesson**: Upskilled quickly at **SKompXcel**, mastering system design to better mentor students.  
 - **Changed Thinking**: Learned to approach problems holistically at **Giftcash**, improving response times by **20%**.  
 - **Curiosity-Driven Decision**: Used **Puppeteer** and rotating proxies at **SDI Labs** to solve anti-scraping issues, achieving **99% uptime**.
 
 ---
 
+---
 ## 6. **Hire and Develop the Best**
 
 ### **Question 1**: Tell me about a time when you mentored someone.
@@ -263,12 +282,14 @@ I implemented a two-stage process: a technical interview followed by a demo tuto
 ---
 
 ### **Key Takeaways**  
+
 - **Mentoring Success**: Improved junior tutors' skills at **SKompXcel**, leading to higher student satisfaction and success.  
 - **Handling a Bad Hire**: Proactively addressed a tutor’s weaknesses through coaching and mentorship, resulting in improved performance.  
 - **Candidate Qualities**: Developed a structured hiring process emphasizing technical skills, communication, adaptability, and passion for teaching.
 
 ---
 
+---
 ## 7. **Insist on the Highest Standards**
 
 ### **Question 1**: Tell me about a time when you were dissatisfied with the quality of a project at work. What did you do to improve it?
@@ -302,12 +323,14 @@ I implemented a two-stage process: a technical interview followed by a demo tuto
 ---
 
 ### **Key Takeaways**  
+
 - **Dissatisfied with Quality**: Improved API performance at **Giftcash**, reducing response times by **20%**.  
 - **Motivating Others**: Inspired and supported the tutoring team at **SKompXcel**, leading to student success and high team morale.  
 - **Falling Short and Improving**: Learned from an initial failure at **SDI Labs** and implemented a modular approach, achieving **99% uptime**.
 
 ---
 
+---
 ## 8. **Think Big**
 
 ### **Question 1**: Tell me about your most significant professional achievement.
@@ -341,12 +364,14 @@ I implemented a two-stage process: a technical interview followed by a demo tuto
 ---
 
 ### **Key Takeaways**  
+
 - **Significant Achievement**: Migrated Giftcash's monolithic system to microservices, increasing scalability by **15%**.  
 - **Bold Decision**: Overhauled SDI Labs' data collection system, automating processes and reducing manual effort by **40%**.  
 - **Vision with Impact**: Scaled **SKompXcel** globally using cloud solutions, enabling students worldwide to achieve success.
 
 ---
 
+---
 ## 9. **Bias for Action**
 
 ### **Question 1**: Provide an example of when you took a calculated risk.
@@ -386,6 +411,7 @@ I implemented a two-stage process: a technical interview followed by a demo tuto
 
 ---
 
+---
 ## 10. **Frugality**
 
 ### **Question 1**: Describe a time when you had to rely on yourself to complete a task.
@@ -424,6 +450,7 @@ I implemented a two-stage process: a technical interview followed by a demo tuto
 - **Independent Project Completion**: Learned new tools and implemented web scrapers at **SDI Labs**, improving efficiency by **40%**.
 ---
 
+---
 ## 11. **Earn Trust**
 
 ### **Question 1**: Describe a time when you had to speak up in a difficult or uncomfortable environment.
@@ -455,6 +482,7 @@ I implemented a two-stage process: a technical interview followed by a demo tuto
 **Result**: The team member appreciated the candid conversation, took ownership of their performance, and improved their time management. Deadlines were consistently met moving forward, and the project stayed on track.
 
 ### **Key Takeaways**
+
 **Earn Trust**:  
 - **Speaking Up**: Advocated for microservices at **Giftcash**, improving scalability by **15%**.  
 - **Gaining Trust**: Built trust with tutors at **SKompXcel** through transparency and leadership.  
@@ -462,6 +490,7 @@ I implemented a two-stage process: a technical interview followed by a demo tuto
 
 ---
 
+---
 ## 12. **Dive Deep**
 
 ### **Question 1**: Tell me about the most complicated problem you've had to deal with.
@@ -493,12 +522,14 @@ I implemented a two-stage process: a technical interview followed by a demo tuto
 **Result**: Combining client-side and server-side optimizations reduced overall response times by **20%**, improving the user experience. This experience taught me the importance of taking a holistic approach to problem-solving.
 
 ### **Key Takeaways**
+
 **Dive Deep**:  
 - **Complicated Problems**: Resolved latency issues at **E&S Solutions** using CloudWatch analysis.  
 - **In-Depth Data**: Reduced scraper failures by **90%** with IP rotation at **SDI Labs**.  
 - **Learning Lessons**: Adopted a holistic problem-solving approach at **Giftcash**, improving response times by **20%**.  
 ---
 
+---
 ## 13. **Have Backbone; Disagree and Commit**
 
 ### **Question 1**: Describe a time when you disagreed with the approach of a team member. What did you do?
@@ -530,6 +561,7 @@ I implemented a two-stage process: a technical interview followed by a demo tuto
 **Result**: The feedback sessions became widely accepted, and tutor performance improved significantly. Student satisfaction scores increased, and the platform maintained its **80% success rate**.
 
 ### **Key Takeaways**
+
 **Have Backbone; Disagree and Commit**:  
 - **Disagreeing Respectfully**: Led database optimization at **Giftcash**, improving performance by **20%**.  
 - **Unpopular Decisions**: Implemented feedback sessions at **SKompXcel**, enhancing tutor performance.  
@@ -537,6 +569,7 @@ I implemented a two-stage process: a technical interview followed by a demo tuto
 
 ---
 
+---
 ## 14. **Deliver Results**
 
 ### **Question 1**: Describe the most challenging situation in your life and how you handled it.
@@ -580,6 +613,7 @@ I also communicated with stakeholders to set expectations and adjusted workflows
 - **Pushing Results**: Supported tutors at **SKompXcel** to deliver high-quality sessions under pressure.  
 ---
 
+---
 ## 15. **Strive to Be Earth’s Best Employer**
 
 ### **Question 1**: When was the last time you built a team? What did you consider when assembling it together?
@@ -589,6 +623,7 @@ I also communicated with stakeholders to set expectations and adjusted workflows
 **Task**: I aimed to assemble a team that balanced technical expertise, communication skills, and a passion for mentorship.  
 **Action**: I created a structured hiring process:  
 1. **Technical Evaluation**: Candidates demonstrated their knowledge through problem-solving exercises in data structures and algorithms.  
+
 2. **Teaching Ability**: Candidates conducted a mock tutoring session to assess their ability to explain complex topics clearly.  
 3. **Cultural Fit**: I looked for individuals who were adaptable, empathetic, and aligned with SKompXcel’s mission of empowering students.  
 
@@ -624,6 +659,7 @@ I prioritized diversity in the team to bring a range of perspectives to our ment
 
 ---
 
+---
 ## 16. **Success and Scale Bring Broad Responsibility**
 
 ### **Question 1**: Describe a moral or ethical dilemma you've faced in the workplace. How did you handle it?
@@ -653,7 +689,6 @@ I prioritized diversity in the team to bring a range of perspectives to our ment
 **Task**: I needed to implement scalable systems to manage increased demand and ensure consistent quality.  
 **Action**: I introduced **Google Cloud-based automation** for scheduling, student tracking, and reporting. I also recruited and mentored a team of high-performing tutors and expanded outreach to students worldwide.  
 **Result**: The program scaled successfully, attracting students from multiple countries and maintaining an **80% success rate**. This initiative significantly impacted students' lives by providing them with valuable mentorship and interview preparation.
-
 
 ### **Key Takeaways**
 
