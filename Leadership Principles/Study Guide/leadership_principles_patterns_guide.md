@@ -1,4 +1,61 @@
-# Leadership Principles Study Guide
+# Leadership Principles Pattern Guide
+
+## R.E.A.D. the Question Framework
+
+When answering a question, use **R.E.A.D.** to decide which principle applies:
+
+1. **R** – **Recognize** the situation or theme.  
+   - Is this about **customers**, **teams**, **results**, or **innovation**?
+
+2. **E** – **Evaluate** the challenge type.  
+   - Is it about **taking action**?  
+   - Do you need to **solve problems**, **simplify**, or **dive deeper**?
+
+3. **A** – **Analyze** the keywords and signals.  
+   Look for trigger words like:  
+   - “ownership,” “quality,” “trust,” “results,” or “scale.”
+
+4. **D** – **Decide** which principle fits best based on:  
+   - **Situation type** (customers, teams, decisions, actions).  
+   - **Desired outcome** (growth, impact, results, ethics).
+
+---
+
+## Situational Triggers Table
+
+Use this cheat sheet to quickly identify **when to apply each principle**:
+
+| **Situation**                          | **Trigger Words**                   | **Principle to Apply**                   |
+|----------------------------------------|-------------------------------------|-----------------------------------------|
+| Customer issue or satisfaction         | “Customer,” “expectations,” “trust” | **Customer Obsession**                  |
+| Taking ownership of unclear tasks      | “Unclear,” “initiative,” “responsibility” | **Ownership**                       |
+| Solving complex problems creatively    | “Simplify,” “innovative,” “efficient” | **Invent and Simplify**              |
+| Decision-making or learning from errors| “Judgment,” “decision,” “mistake”    | **Are Right, A Lot**                    |
+| Showing curiosity or learning skills   | “Learn,” “lesson,” “curious”        | **Learn and Be Curious**                |
+| Team growth, hiring, or mentorship     | “Team,” “mentor,” “develop”         | **Hire and Develop the Best**           |
+| Quality concerns or improvement        | “Standards,” “quality,” “feedback”  | **Insist on the Highest Standards**     |
+| Big ideas or achieving bold results    | “Vision,” “bold,” “impact”          | **Think Big**                           |
+| Acting quickly or taking risks         | “Initiative,” “risk,” “delay”       | **Bias for Action**                     |
+| Resource constraints or efficiency     | “Frugal,” “cost-effective,” “budget”| **Frugality**                           |
+| Gaining trust or resolving conflict    | “Trust,” “conflict,” “credibility”  | **Earn Trust**                          |
+| Digging deeper or solving complex issues| “Analyze,” “data,” “deep dive”      | **Dive Deep**                           |
+| Standing firm or committing to decisions| “Disagree,” “commit,” “challenge”   | **Have Backbone; Disagree and Commit**  |
+| Meeting deadlines and delivering results| “Results,” “deliver,” “priorities” | **Deliver Results**                     |
+| Building team culture or career growth | “Supportive,” “team,” “growth”      | **Strive to Be Earth’s Best Employer**  |
+| Ethics, responsibility, or large-scale impact | “Ethical,” “scale,” “responsibility” | **Success and Scale Bring Broad Responsibility** |
+
+---
+
+### How to Use:
+
+1. **Step 1**: Identify the **situation type**.  
+   Is it about customers, teams, decisions, actions, or challenges?  
+
+2. **Step 2**: Look for **trigger words** in the question.  
+
+3. **Step 3**: Refer to the **Situational Triggers Table** to decide which principle applies.  
+
+---
 
 ## Customer Obsession
 
