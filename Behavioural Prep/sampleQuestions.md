@@ -426,37 +426,114 @@ I implemented a two-stage process: a technical interview followed by a demo tuto
 
 ## 11. **Earn Trust**
 
-**Question**: Describe a time when you had to speak up in a difficult environment.
+### **Question 1**: Describe a time when you had to speak up in a difficult or uncomfortable environment.
 
 **Answer**:  
-**Situation**: At **Giftcash**, during migration discussions, I disagreed with the team’s approach of retaining the monolithic architecture.  
-**Task**: I needed to communicate my concerns respectfully and advocate for a scalable solution.  
-**Action**: I presented performance data and demonstrated the benefits of microservices architecture. I actively listened to concerns and addressed questions.  
-**Result**: The team agreed to the migration, which improved scalability by **15%**.
+**Situation**: At **Giftcash**, during migration discussions, the team was inclined to retain the monolithic architecture due to concerns about migration complexity and potential risks.  
+**Task**: I needed to respectfully voice my disagreement and advocate for transitioning to a microservices architecture, which I believed was critical for scalability.  
+**Action**: I prepared performance benchmarks and case studies to demonstrate the limitations of the monolith and the long-term benefits of microservices. During the discussion, I actively listened to team concerns and addressed each point, emphasizing how a phased migration could mitigate risks.  
+**Result**: The team agreed to proceed with the migration, which improved system scalability by **15%** and prepared the platform for future growth.
+
+---
+
+### **Question 2**: What would you do to gain the trust of your team?
+
+**Answer**:  
+**Situation**: At **SKompXcel**, I was leading a group of new tutors who were initially unsure about my leadership and teaching methods.  
+**Task**: I needed to earn their trust by demonstrating reliability, transparency, and value as a leader.  
+**Action**: I organized regular one-on-one feedback sessions to understand their challenges and offered actionable guidance to improve their teaching skills. I also shared my experiences, including challenges I had faced, to foster an open and supportive environment. Finally, I led by example by taking on difficult tutoring sessions and demonstrating techniques they could use.  
+**Result**: The tutors trusted my leadership and were more engaged. Their teaching quality improved significantly, and student satisfaction increased, reinforcing a collaborative and high-performing team culture.
+
+---
+
+### **Question 3**: Tell me about a time when you had to tell a harsh truth to someone.
+
+**Answer**:  
+**Situation**: At **E&S Solutions**, I was working with a team member who frequently missed deadlines, which impacted project delivery timelines.  
+**Task**: I needed to provide honest feedback about their performance while maintaining a positive and constructive relationship.  
+**Action**: I scheduled a private meeting where I shared specific examples of missed deadlines and their impact on the project. I approached the conversation with empathy, asking about any challenges they were facing and offering support where needed. I also outlined clear expectations and suggested tools to help them manage their tasks better.  
+**Result**: The team member appreciated the candid conversation, took ownership of their performance, and improved their time management. Deadlines were consistently met moving forward, and the project stayed on track.
+
+### **Key Takeaways**
+**Earn Trust**:  
+- **Speaking Up**: Advocated for microservices at **Giftcash**, improving scalability by **15%**.  
+- **Gaining Trust**: Built trust with tutors at **SKompXcel** through transparency and leadership.  
+- **Harsh Truths**: Addressed performance issues constructively at **E&S Solutions**, leading to improvements.  
 
 ---
 
 ## 12. **Dive Deep**
 
-**Question**: Tell me about the most complicated problem you've had to deal with.
+### **Question 1**: Tell me about the most complicated problem you've had to deal with.
 
 **Answer**:  
-**Situation**: At **E&S Solutions**, a client’s application experienced unexplained latency issues.  
-**Task**: I needed to identify and resolve the root cause of the problem.  
-**Action**: I analyzed CloudWatch logs, optimized Lambda executions, and restructured inefficient database queries.  
-**Result**: The latency issue was resolved, and application performance stabilized.
+**Situation**: At **E&S Solutions**, a client's critical application faced unexplained latency issues, which impacted user experience and client satisfaction.  
+**Task**: I needed to identify and resolve the root cause of the latency.  
+**Action**: I conducted a deep analysis of **AWS CloudWatch** logs to pinpoint bottlenecks in the system. I discovered that inefficient Lambda execution and poorly structured database queries were causing delays. I optimized the Lambda runtimes, improved database indexing, and added caching mechanisms to reduce repetitive calls.  
+**Result**: The latency issue was fully resolved, and application performance stabilized. The client reported significant improvements in response times and user satisfaction.
 
+---
+
+### **Question 2**: Give me an example of when you utilized in-depth data to develop a solution.
+
+**Answer**:  
+**Situation**: At **SDI Labs**, the web scrapers I built for data aggregation occasionally failed due to anti-scraping mechanisms, leading to inconsistent results.  
+**Task**: I needed to identify the failure points and implement a robust solution to ensure reliability.  
+**Action**: I analyzed detailed logs and failure reports to understand patterns in the failures. I noticed that certain IP addresses were getting blocked after repeated requests. To address this, I implemented **IP rotation** and user-agent switching to mimic human-like browsing behavior. Additionally, I monitored scraper performance using detailed metrics.  
+**Result**: The solution reduced scraper failures by **90%** and improved uptime to **99%**, ensuring consistent and reliable data collection.
+
+---
+
+### **Question 3**: Tell me about something that you have learned in your role.
+
+**Answer**:  
+**Situation**: While optimizing API performance at **Giftcash**, I initially focused solely on database-side improvements but learned that client-side optimizations are equally critical for performance.  
+**Task**: I needed to identify all performance bottlenecks, including those outside the database.  
+**Action**: I expanded my focus to analyze front-end behavior and discovered that redundant API calls and large payload sizes were impacting overall response times. I worked with the front-end team to optimize API usage and minimize payload sizes.  
+**Result**: Combining client-side and server-side optimizations reduced overall response times by **20%**, improving the user experience. This experience taught me the importance of taking a holistic approach to problem-solving.
+
+### **Key Takeaways**
+**Dive Deep**:  
+- **Complicated Problems**: Resolved latency issues at **E&S Solutions** using CloudWatch analysis.  
+- **In-Depth Data**: Reduced scraper failures by **90%** with IP rotation at **SDI Labs**.  
+- **Learning Lessons**: Adopted a holistic problem-solving approach at **Giftcash**, improving response times by **20%**.  
 ---
 
 ## 13. **Have Backbone; Disagree and Commit**
 
-**Question**: Describe a time when you disagreed with the approach of a team member.
+### **Question 1**: Describe a time when you disagreed with the approach of a team member. What did you do?
 
 **Answer**:  
-**Situation**: At **Giftcash**, I disagreed with a team member's idea to patch performance issues rather than optimize the database.  
-**Task**: I needed to respectfully advocate for a sustainable solution.  
-**Action**: I presented data showing the benefits of optimizing queries and indexing for long-term gains. Once the team agreed, I led the optimization efforts.  
-**Result**: The database performance improved by **20%**, addressing the root issue effectively.
+**Situation**: At **Giftcash**, a team member suggested patching performance issues with temporary fixes rather than addressing the root cause of database inefficiencies.  
+**Task**: I disagreed with this approach and needed to advocate for a sustainable solution.  
+**Action**: I respectfully shared my concerns in a team meeting and presented data showing that temporary patches would create long-term technical debt. I outlined the benefits of optimizing queries and indexing to solve the root issue. Once the team agreed, I led the optimization efforts.  
+**Result**: The database performance improved by **20%**, and we avoided additional technical debt. This experience reinforced the value of respectfully advocating for better solutions.
+
+---
+
+### **Question 2**: Give me an example of something you believe in that nobody else does.
+
+**Answer**:  
+**Situation**: At **SDI Labs**, I believed that introducing automation for market data aggregation would be far more efficient than relying on manual data scraping, but the team was hesitant to adopt it.  
+**Task**: I needed to prove that automation would save time and improve reliability without disrupting existing workflows.  
+**Action**: I developed a proof-of-concept scraper using **Puppeteer** and deployed it in a test environment. I demonstrated how automation reduced data collection time by **40%** while maintaining accuracy.  
+**Result**: The team was convinced and adopted automation as a core part of our workflow. This project significantly improved efficiency and provided real-time insights for stakeholders.
+
+---
+
+### **Question 3**: Tell me about an unpopular decision of yours.
+
+**Answer**:  
+**Situation**: At **SKompXcel**, I decided to implement mandatory feedback sessions for tutors to improve the quality of teaching. Initially, some tutors viewed this as extra work and were resistant to the idea.  
+**Task**: I believed that constructive feedback was essential to maintaining high standards and ensuring student success.  
+**Action**: I explained the value of the feedback process in improving teaching quality and enhancing student outcomes. I also emphasized that the sessions would be collaborative and focused on growth rather than criticism. Over time, I demonstrated its impact by highlighting improvements in student feedback and satisfaction.  
+**Result**: The feedback sessions became widely accepted, and tutor performance improved significantly. Student satisfaction scores increased, and the platform maintained its **80% success rate**.
+
+### **Key Takeaways**
+**Have Backbone; Disagree and Commit**:  
+- **Disagreeing Respectfully**: Led database optimization at **Giftcash**, improving performance by **20%**.  
+- **Unpopular Decisions**: Implemented feedback sessions at **SKompXcel**, enhancing tutor performance.  
+- **Challenging Beliefs**: Successfully introduced automation at **SDI Labs**, saving **40%** of manual effort.
 
 ---
 
