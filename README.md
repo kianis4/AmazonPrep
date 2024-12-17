@@ -41,15 +41,20 @@ It includes study materials, coding challenges, mock scenarios, and behavioral q
 
 - **1. Leadership Principles**:
   - A study guide to internalize and apply Amazon’s Leadership Principles using the **CUSTOMER FIRST** acronym.
+  - [Amazon Leadership Principles Study Guide](https://github.com/kianis4/AmazonPrep/blob/main/Leadership%20Principles/Study%20Guide/LPStudyGuide.md)
+  - [Leadership Principles Pattern Guide](https://github.com/kianis4/AmazonPrep/blob/main/Leadership%20Principles/Study%20Guide/leadership_principles_patterns_guide.md)
 
 - **2. Coding Challenges**:
   - A curated list of problems for algorithmic thinking, data structures, and debugging.
+  - [Amazon LeetCode Questions](https://github.com/kianis4/AmazonPrep/tree/main/Amazon%20Leetcode%20Questions)
 
 - **3. Work Simulation**:
   - Mock scenarios with decision-making exercises.
 
 - **4. Behavioral Preparation**:
   - STAR-method examples tailored to Amazon's principles.
+  - [Amazon Leadership Principles: Practice Questions & Answers](https://github.com/kianis4/AmazonPrep/blob/main/Behavioural%20Prep/sampleQuestions.md)
+  - [Amazon Leadership Principles: Behavioral Prep](https://github.com/kianis4/AmazonPrep/blob/main/Behavioural%20Prep/situations.md)
 
 ---
 
@@ -131,8 +136,8 @@ Focus on these key topics, which are common in Amazon’s OA and technical inter
 Amazon’s 16 Leadership Principles are the foundation of their culture and hiring process. This repository includes:
 - **CUSTOMER FIRST Acronym**: A guide for easy memorization.
 - STAR-method examples for behavioral interviews.
-
-> 📄 **File:** [`amazon_leadership_principles_study_guide.md`](amazon_leadership_principles_study_guide.md)
+- [Amazon Leadership Principles Study Guide](https://github.com/kianis4/AmazonPrep/blob/main/Leadership%20Principles/Study%20Guide/LPStudyGuide.md)
+- [Leadership Principles Pattern Guide](https://github.com/kianis4/AmazonPrep/blob/main/Leadership%20Principles/Study%20Guide/leadership_principles_patterns_guide.md)
 
 ---
 
@@ -150,6 +155,9 @@ Structure your responses for behavioral questions using:
 > - **T**: Increase scalability by 15%.
 > - **A**: Designed modular systems; implemented caching.
 > - **R**: Achieved 20% faster response times.
+
+- [Amazon Leadership Principles: Practice Questions & Answers](https://github.com/kianis4/AmazonPrep/blob/main/Behavioural%20Prep/sampleQuestions.md)
+- [Amazon Leadership Principles: Behavioral Prep](https://github.com/kianis4/AmazonPrep/blob/main/Behavioural%20Prep/situations.md)
 
 ---
 
@@ -189,6 +197,8 @@ Contributions are welcome! If you have additional resources, tips, or improvemen
 - [Grokking the Coding Interview](https://www.educative.io/courses/grokking-the-coding-interview)
 - [Acing the Amazon OA](https://aonecode.com/amazon-online-assessment)
 - [STAR Method for Behavioral Interviews](https://www.thebalancecareers.com/what-is-the-star-interview-response-technique-2061629)
+- [Technical Preparation Cheatsheet](https://github.com/kianis4/AmazonPrep/blob/main/Technical%20Prep/CheatSheet.md)
+- [Amazon Technical Preparation Guide](https://github.com/kianis4/AmazonPrep/blob/main/Technical%20Prep/TechnicalPrep.md)
 
 ---
 
