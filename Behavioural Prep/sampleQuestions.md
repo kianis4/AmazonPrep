@@ -148,61 +148,202 @@ I learned the importance of balancing simplicity with functionality. In the futu
 
 ## 4. **Are Right, A Lot**
 
-**Question**: Tell me about a time when you had to work with insufficient information or incomplete data.
+### **Question 1**: Tell me about a time when you effectively used your judgment to solve a problem.
+
+**Answer**:  
+**Situation**: At **Giftcash**, during the migration from a monolithic Django system to a Node.js microservices architecture, there was a concern that splitting the services might cause delays due to increased API calls between services.  
+**Task**: I needed to evaluate this concern and decide whether we should proceed with splitting services or look for alternative solutions.  
+**Action**: I analyzed the system's current bottlenecks and identified that most delays were not due to API calls but were caused by inefficient database queries. I proposed optimizing the database performance first before further changes to the architecture.  
+**Result**: By implementing efficient database indexing and caching strategies, we reduced response times by **20%**. This allowed us to proceed confidently with splitting the services, achieving better scalability without introducing additional delays.  
+
+---
+
+### **Question 2**: Tell me about a time when you had to work with insufficient information or incomplete data.
 
 **Answer**:  
 **Situation**: At **SDI Labs**, I was tasked with optimizing SQL query performance, but the database lacked comprehensive documentation.  
 **Task**: I needed to improve query performance without clear insights into existing schemas or bottlenecks.  
-**Action**: I conducted thorough profiling, identified inefficient queries through trial and error, and restructured database indexes. I also documented my findings for future use.  
-**Result**: Query execution times were reduced by **20%**, and the database performance became more predictable.
+**Action**: I conducted thorough profiling using tools like `EXPLAIN` to analyze query execution plans. Through trial and error, I identified inefficient queries, restructured database indexes, and optimized the query patterns. Additionally, I documented my findings for future team members.  
+**Result**: Query execution times were reduced by **20%**, and the database performance became more predictable and scalable, saving time for future developers.
+
+---
+
+### **Question 3**: Tell me about a time when you were wrong.
+
+**Answer**:  
+**Situation**: At **SKompXcel**, I initially believed that automating all administrative workflows using Google Cloud tools would immediately improve the platform's scalability and performance.  
+**Task**: I began migrating the workflows without fully analyzing the bottlenecks or prioritizing the areas where automation would have the most impact.  
+**Action**: Midway through the process, I realized that certain manual steps, such as student progress tracking, were still necessary for personalized learning. Automating everything too quickly created unnecessary complexity. I paused, revisited my approach, and prioritized automating repetitive tasks like scheduling and notifications while retaining manual oversight for student tracking.  
+**Result**: By refining the focus of automation, I improved platform reliability, reduced scheduling errors by **30%**, and enhanced the student experience. This experience taught me to evaluate solutions thoroughly before committing to large-scale changes.
+
+---
+
+### **Key Takeaways**  
+- **Effective Judgment**: Optimized database performance at **Giftcash**, reducing response times by **20%** and enabling a smooth transition to microservices.  
+- **Working with Incomplete Data**: Improved SQL query efficiency at **SDI Labs** by profiling and trial-and-error, reducing query times by **20%**.  
+- **Being Wrong and Learning**: Learned to prioritize impactful automation at **SKompXcel**, reducing scheduling errors by **30%** and improving reliability.
 
 ---
 
 ## 5. **Learn and Be Curious**
 
-**Question**: Tell me about an important lesson you learned over the past year.
+### **Question 1**: Tell me about an important lesson you learned over the past year.
 
 **Answer**:  
 **Situation**: While mentoring students at **SKompXcel**, I encountered questions about advanced system design topics I was unfamiliar with.  
-**Task**: I needed to quickly upskill to provide value to my students and maintain credibility.  
-**Action**: I dedicated time to learning advanced system design concepts, explored case studies, and practiced solving system design problems on platforms like LeetCode.  
-**Result**: I became proficient in system design and helped students successfully prepare for their interviews.
+**Task**: I needed to quickly upskill to provide value to my students and maintain credibility as a mentor.  
+**Action**: I dedicated time to learning advanced system design concepts by studying case studies, reading system architecture books, and solving relevant problems on **LeetCode**. I also sought out real-world examples to better explain these concepts during tutoring sessions.  
+**Result**: I became proficient in system design and successfully helped students tackle system design interview questions. Many students reported improved confidence and better interview performance.
+
+---
+
+### **Question 2**: Tell me about a situation or experience you went through that changed your way of thinking.
+
+**Answer**:  
+**Situation**: At **Giftcash**, during the optimization of API performance, I initially focused solely on the server-side code and database structure to reduce response times. However, even after optimizing queries and implementing caching, performance gains were smaller than expected.  
+**Task**: I needed to understand why the performance was not improving as anticipated and reevaluate my approach.  
+**Action**: Out of curiosity, I decided to explore client-side performance issues, such as request payload size and unnecessary API calls. I discovered that the front-end was repeatedly making redundant API requests, which impacted overall system responsiveness. I collaborated with the front-end team to optimize API usage and reduce the payload sizes.  
+**Result**: This experience changed my way of thinking by teaching me to look at problems holistically instead of focusing narrowly on one area. The combined server-side and client-side optimizations improved response times by **20%**.
+
+---
+
+### **Question 3**: Tell me about a time when you made a smarter decision with the help of your curiosity.
+
+**Answer**:  
+**Situation**: At **SDI Labs**, I was tasked with designing web scrapers to automate data collection. While exploring the initial approach, I noticed the existing script was repeatedly failing due to anti-scraping mechanisms on certain websites.  
+**Task**: I needed to find a smarter and more reliable way to collect the required data without triggering those anti-scraping defenses.  
+**Action**: Out of curiosity, I researched and learned about **headless browsers** like Puppeteer and tools like rotating proxies. I implemented a solution using Puppeteer to simulate real user interactions and integrated IP rotation to bypass anti-scraping mechanisms effectively.  
+**Result**: The new approach allowed the scrapers to collect data reliably without interruptions. Data collection time decreased, and system uptime improved to **99%**, making the process significantly more efficient.
+
+---
+
+### **Key Takeaways**  
+- **Important Lesson**: Upskilled quickly at **SKompXcel**, mastering system design to better mentor students.  
+- **Changed Thinking**: Learned to approach problems holistically at **Giftcash**, improving response times by **20%**.  
+- **Curiosity-Driven Decision**: Used **Puppeteer** and rotating proxies at **SDI Labs** to solve anti-scraping issues, achieving **99% uptime**.
 
 ---
 
 ## 6. **Hire and Develop the Best**
 
-**Question**: Tell me about a time when you mentored someone.
+### **Question 1**: Tell me about a time when you mentored someone.
 
 **Answer**:  
-**Situation**: At **SKompXcel**, I mentored junior tutors to improve their teaching skills and deliver quality sessions.  
-**Task**: My goal was to ensure the new tutors met the platform’s high standards and effectively engaged with students.  
-**Action**: I shared best practices, conducted feedback sessions, and provided personalized guidance on teaching techniques and technical concepts.  
-**Result**: The tutors improved significantly, and student feedback reflected higher satisfaction, maintaining an **80% success rate**.
+**Situation**: At **SKompXcel**, I mentored junior tutors to improve their teaching skills and deliver quality sessions to students.  
+**Task**: My goal was to ensure the new tutors met the platform’s high standards, effectively engaged with students, and provided measurable results.  
+**Action**: I shared best practices for lesson planning, conducted personalized feedback sessions to address their specific challenges, and provided guidance on teaching complex technical concepts such as algorithms and systems design. I also encouraged them to shadow my sessions to observe effective strategies in real-time.  
+**Result**: The tutors improved significantly in both teaching delivery and student engagement. Student feedback reflected higher satisfaction, and we maintained an **80% success rate** in helping students achieve their academic goals.
+
+---
+
+### **Question 2**: Tell me about a time when you made a bad hire. When did you figure it out, and what did you do?
+
+**Answer**:  
+**Situation**: During the early stages of **SKompXcel**, I brought on a tutor who, despite having strong technical knowledge, struggled to connect with students and deliver content in a clear, engaging manner.  
+**Task**: I needed to address this issue quickly to prevent it from impacting student outcomes while still supporting the tutor’s development.  
+**Action**: After observing a few sessions and gathering student feedback, I identified areas where the tutor needed improvement—mainly communication and lesson structuring. I conducted one-on-one coaching sessions, provided structured lesson templates, and encouraged them to focus on active learning strategies. I also arranged for them to co-teach a few sessions with experienced tutors to gain confidence.  
+**Result**: Over time, the tutor showed noticeable improvement, and their student satisfaction scores increased. This experience taught me to incorporate a more robust screening process that includes a demo session before onboarding tutors.
+
+---
+
+### **Question 3**: What qualities do you look for in potential candidates when making hiring decisions?
+
+**Answer**:  
+**Situation**: At **SKompXcel**, I needed to identify and hire tutors who could deliver high-quality mentorship while also connecting effectively with students.  
+**Task**: I developed a framework to evaluate candidates based on both technical proficiency and interpersonal skills.  
+**Action**: When interviewing candidates, I prioritized the following qualities:  
+- **Technical Expertise**: Proficiency in core topics such as data structures, algorithms, and systems design.  
+- **Communication Skills**: The ability to explain complex concepts in a simple, engaging way tailored to each student’s needs.  
+- **Adaptability**: A willingness to adjust teaching styles based on individual student feedback.  
+- **Passion for Mentorship**: A genuine interest in guiding students toward success.  
+
+I implemented a two-stage process: a technical interview followed by a demo tutoring session where candidates taught a mock lesson to assess these qualities in action.  
+**Result**: This approach ensured that we hired tutors who not only excelled in technical knowledge but also delivered exceptional student experiences. Over time, this improved overall satisfaction and helped maintain our **80% success rate**.
+
+---
+
+### **Key Takeaways**  
+- **Mentoring Success**: Improved junior tutors' skills at **SKompXcel**, leading to higher student satisfaction and success.  
+- **Handling a Bad Hire**: Proactively addressed a tutor’s weaknesses through coaching and mentorship, resulting in improved performance.  
+- **Candidate Qualities**: Developed a structured hiring process emphasizing technical skills, communication, adaptability, and passion for teaching.
 
 ---
 
 ## 7. **Insist on the Highest Standards**
 
-**Question**: Tell me about a time when you were dissatisfied with the quality of a project.
+### **Question 1**: Tell me about a time when you were dissatisfied with the quality of a project at work. What did you do to improve it?
 
 **Answer**:  
-**Situation**: At **Giftcash**, API performance fell short during peak traffic, causing delays.  
-**Task**: I needed to raise the performance to meet the highest reliability and speed standards.  
-**Action**: I optimized PostgreSQL queries, implemented caching mechanisms, and refined database indexing. I also conducted load testing to validate the improvements.  
-**Result**: API response times improved by **20%**, and the system handled traffic seamlessly during peak loads.
+**Situation**: At **Giftcash**, API performance fell short during peak traffic, causing delays and failing to meet user expectations for speed and reliability.  
+**Task**: I needed to improve the API performance to meet the highest standards of speed and scalability.  
+**Action**: I conducted a thorough analysis of the database and identified inefficient PostgreSQL queries that were slowing down response times. I optimized the queries, implemented caching mechanisms to reduce database load, and refined database indexing to speed up data retrieval. Additionally, I conducted extensive **load testing** to validate the improvements under simulated peak traffic conditions.  
+**Result**: API response times improved by **20%**, and the system handled high traffic seamlessly during peak hours. The improvements ensured a consistent and reliable user experience.
+
+---
+
+### **Question 2**: Tell me about a time when you motivated others to go above and beyond.
+
+**Answer**:  
+**Situation**: While leading a team of tutors at **SKompXcel**, we faced a tight timeline to prepare students for their final exams, and some tutors were concerned about balancing workloads.  
+**Task**: I needed to motivate the team to deliver exceptional results without compromising the quality of sessions or their morale.  
+**Action**: I organized a team meeting to align everyone on the importance of the work and the impact it had on the students' success. I shared individual success stories of students who had benefitted from our efforts to inspire the team. To make workloads manageable, I offered support by stepping in for extra sessions where needed. I also encouraged team members to share strategies and collaborate to optimize their session plans.  
+**Result**: The team responded positively, delivering exceptional tutoring sessions while maintaining a high standard. The majority of students achieved their academic goals, and team morale remained strong throughout the busy period.
+
+---
+
+### **Question 3**: Describe a situation when you couldn't meet your standards and expectations on a task.
+
+**Answer**:  
+**Situation**: At **SDI Labs**, I was tasked with optimizing web scraper workflows to reduce the time required for large-scale data collection. Due to time constraints and system limitations, I initially combined all scraping tasks into a single monolithic script.  
+**Task**: I aimed to simplify the process and improve efficiency, but the solution ended up being less reliable than expected, with frequent failures when one task caused the entire process to crash.  
+**Action**: I quickly identified the issue and decided to roll back to a modular approach. I separated the scraping tasks into smaller, independent scripts and containerized them using **Docker**. I also added better error handling and logging mechanisms to make troubleshooting easier.  
+**Result**: While I initially failed to meet my expectations, the rollback to a modular design increased system reliability to **99% uptime**. This experience taught me the importance of incremental testing and balancing simplicity with robustness in system design.
+
+---
+
+### **Key Takeaways**  
+- **Dissatisfied with Quality**: Improved API performance at **Giftcash**, reducing response times by **20%**.  
+- **Motivating Others**: Inspired and supported the tutoring team at **SKompXcel**, leading to student success and high team morale.  
+- **Falling Short and Improving**: Learned from an initial failure at **SDI Labs** and implemented a modular approach, achieving **99% uptime**.
 
 ---
 
 ## 8. **Think Big**
 
-**Question**: Tell me about a time when your vision led to a great impact.
+### **Question 1**: Tell me about your most significant professional achievement.
 
 **Answer**:  
-**Situation**: At **SKompXcel**, I saw an opportunity to scale the mentorship program beyond local reach.  
-**Task**: I aimed to create scalable systems that would allow us to support more students globally.  
-**Action**: I implemented cloud solutions using Google Cloud to automate scheduling, streamline workflows, and enable global accessibility.  
-**Result**: The platform successfully scaled, attracting students from multiple regions and achieving consistent success rates.
+**Situation**: At **Giftcash**, I was part of a team tasked with migrating a legacy Python Django monolithic codebase to a modern, scalable **Node.js microservices** architecture.  
+**Task**: My role was to ensure that the migration improved system scalability, optimized API performance, and prepared the platform to handle future growth.  
+**Action**: I worked closely with senior developers to design a modular architecture and implemented key components. I optimized **PostgreSQL queries**, created efficient database indexing, and introduced caching mechanisms to improve response times. I also performed extensive load testing to ensure system stability post-migration.  
+**Result**: The migration led to a **15% increase in system scalability** and a **20% reduction in API response times**, positioning Giftcash to handle higher traffic seamlessly. This project was a major milestone in my career, as it demonstrated my ability to contribute to large-scale technical decisions and impactful implementations.
+
+---
+
+### **Question 2**: Tell me about a time when you had to make a bold and challenging decision.
+
+**Answer**:  
+**Situation**: At **SDI Labs**, the existing data collection process relied on manual scraping, which was slow, error-prone, and couldn’t scale with increasing data requirements.  
+**Task**: I had to decide whether to overhaul the existing process by building a fully automated scraping system, a bold move that would require significant upfront effort and risk.  
+**Action**: I proposed and took the initiative to implement an automated web scraping solution using **Ruby on Rails** and **Docker** for containerization. I researched **anti-scraping mechanisms** and incorporated headless browsers (Puppeteer) and IP rotation to ensure reliability. I also created monitoring tools to detect and fix failures quickly.  
+**Result**: The automated system reduced manual effort by **40%**, improved data accuracy, and enabled real-time insights for stakeholders. This decision proved to be bold but highly impactful, as it set the foundation for scalable and reliable data collection.
+
+---
+
+### **Question 3**: Tell me about a time when your vision led to a great impact.
+
+**Answer**:  
+**Situation**: At **SKompXcel**, I saw an opportunity to scale the mentorship program beyond local reach to provide personalized learning for students worldwide.  
+**Task**: I aimed to create scalable systems that could support more students globally while maintaining high-quality mentorship.  
+**Action**: I implemented **Google Cloud** solutions to automate administrative workflows such as scheduling and student tracking. I also introduced tools for virtual mentorship sessions and streamlined contractor operations to ensure scalability. To promote the platform globally, I developed an outreach strategy targeting students in other regions.  
+**Result**: The platform successfully scaled, attracting students from multiple countries and achieving an **80% success rate** in helping students meet their academic goals. This vision transformed SKompXcel from a local initiative into a global mentorship platform.
+
+---
+
+### **Key Takeaways**  
+- **Significant Achievement**: Migrated Giftcash's monolithic system to microservices, increasing scalability by **15%**.  
+- **Bold Decision**: Overhauled SDI Labs' data collection system, automating processes and reducing manual effort by **40%**.  
+- **Vision with Impact**: Scaled **SKompXcel** globally using cloud solutions, enabling students worldwide to achieve success.
 
 ---
 
