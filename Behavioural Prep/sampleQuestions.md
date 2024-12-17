@@ -23,37 +23,126 @@
 
 ## 1. **Customer Obsession**
 
-**Question**: Tell me about a time when you didn't meet customer expectations. What happened, and how did you deal with the situation?
+### **Question 1**: Who was your most difficult customer?  
+
+**Answer**:  
+**Situation**: At **SKompXcel**, I encountered a student who was highly skeptical of the tutoring process. They were frustrated due to poor experiences with previous tutors and were initially uncooperative during sessions.  
+**Task**: I needed to rebuild their trust, ensure they engaged with the sessions, and demonstrate the value of my approach.  
+**Action**: I started by listening to their concerns and tailored the tutoring sessions to their preferred learning style. I introduced practical examples and real-world problem-solving to make the content more relatable. I also checked in regularly to address any lingering doubts and maintained open, supportive communication.  
+**Result**: Over time, the student became more receptive and started to enjoy the sessions. They improved their grades significantly, and by the end, they shared positive feedback about my teaching style and efforts.  
+
+---
+
+### **Question 2**: Tell me about a time when you didn't meet customer expectations. What happened, and how did you deal with the situation?  
 
 **Answer**:  
 **Situation**: At **SKompXcel**, a student expressed dissatisfaction with the pace of the tutoring sessions, feeling overwhelmed by the content.  
 **Task**: I needed to address the student's concerns, adjust the content delivery, and ensure their success without compromising quality.  
 **Action**: I met with the student to understand their struggles and implemented a personalized plan, breaking down complex topics into smaller, manageable parts. I also created a progress-tracking system to measure their understanding at each stage.  
-**Result**: The student regained confidence, achieved their learning goals, and ultimately performed well in their exams.
+**Result**: The student regained confidence, achieved their learning goals, and ultimately performed well in their exams.  
+
+---
+
+### **Question 3**: How do you go about prioritizing customer needs when you are dealing with a large number of customers?  
+
+**Answer**:  
+**Situation**: At **SKompXcel**, I often had to manage multiple students simultaneously, each with different learning goals, deadlines, and areas of difficulty. Balancing priorities was challenging, as all students required attention.  
+**Task**: I needed to effectively prioritize their needs while ensuring no student felt overlooked.  
+**Action**: I developed a structured system to triage priorities based on urgency and complexity. For example:  
+- I scheduled students with immediate deadlines for early sessions.  
+- I dedicated extra time to students struggling with foundational concepts, as their progress would impact future sessions.  
+- I created a shared calendar for transparent scheduling and communicated session plans in advance to manage expectations.  
+
+I also established office hours where students could drop in for quick clarifications, minimizing bottlenecks.  
+**Result**: This approach enabled me to balance the needs of all students effectively. By prioritizing based on urgency and individual progress, I ensured every student received the support they needed. Feedback improved, and students achieved higher success rates.  
+
+---
+
+### **Key Takeaways**  
+- **Most Difficult Customer**: Rebuilding trust with a skeptical student by tailoring learning to their needs.  
+- **Missed Expectations**: Adjusting pace and content delivery for a struggling student through personalized plans.  
+- **Prioritizing Needs**: Implementing a structured system to triage priorities, schedule effectively, and address all students' concerns.
 
 ---
 
 ## 2. **Ownership**
 
-**Question**: Tell me about a time when you took on a task that was beyond your job responsibilities.
+### **Question 1**: Tell me about a time when you took on a task that was beyond your job responsibilities.
 
 **Answer**:  
 **Situation**: At **E&S Solutions**, I noticed that the manual process for sending client Google review requests was inefficient and time-consuming.  
 **Task**: Although this was outside my role as a developer, I decided to automate the process to save time and improve client engagement.  
-**Action**: I built an AWS Lambda function integrated with SNS and S3 to automate review requests. I tested the system to ensure reliability and deployed it successfully.  
-**Result**: The automation reduced manual effort by **70%** and improved the company’s review response rate.
+**Action**: I built an AWS Lambda function integrated with SNS and S3 to automate review requests. I thoroughly tested the system for reliability and deployed it successfully.  
+**Result**: The automation reduced manual effort by **70%** and improved the company’s review response rate, saving significant time for the team.
+
+---
+
+### **Question 2**: Tell me about a time when you had to work on a task with unclear responsibilities.
+
+**Answer**:  
+**Situation**: At **Giftcash**, during the migration of a legacy Django monolithic system to a serverless Node.js microservices architecture, there was an area of the project where ownership was unclear—optimizing API database performance.  
+**Task**: Despite it not being explicitly assigned to me, I recognized its critical importance to the project’s success and took the initiative to address it.  
+**Action**: I analyzed the existing database queries and identified inefficiencies. I implemented improved indexing strategies, optimized query structures, and introduced caching mechanisms to reduce response times.  
+**Result**: The database optimization led to a **20% reduction in response times**, improving API performance significantly. This proactive effort contributed to the project’s overall success and scalability.
+
+---
+
+### **Question 3**: Tell me about a time when you showed initiative to work on a challenging project.
+
+**Answer**:  
+**Situation**: At **SDI Labs**, I noticed that the company lacked an automated system for aggregating market data from external sources, which was critical for providing real-time insights to stakeholders.  
+**Task**: I took the initiative to create a scalable solution for automating data collection, even though it was technically challenging and required learning new tools.  
+**Action**: I designed and implemented web scrapers using **Ruby on Rails** and containerized them with **Docker** for scalability. I integrated the scrapers with a SQL database to store the aggregated data and ensured their reliability by automating scheduled runs.  
+**Result**: The solution reduced manual data aggregation efforts by **40%**, allowing stakeholders to access real-time insights efficiently. This initiative not only solved a business problem but also demonstrated my ability to tackle challenging projects head-on.
+
+---
+
+### **Key Takeaways**  
+- **Beyond Job Responsibilities**: Automated manual processes at **E&S Solutions** to save **70% effort**.  
+- **Unclear Responsibilities**: Proactively optimized API performance at **Giftcash**, reducing response times by **20%**.  
+- **Challenging Projects**: Built scalable web scrapers at **SDI Labs**, improving operational efficiency by **40%**.
 
 ---
 
 ## 3. **Invent and Simplify**
 
-**Question**: Describe a time when you found a simple solution to a complex problem.
+### **Question 1**: Describe a time when you found a simple solution to a complex problem.
 
 **Answer**:  
-**Situation**: At **Giftcash**, the existing API workflows for querying gift card balances were inefficient and redundant.  
+**Situation**: At **Giftcash**, the existing API workflows for querying gift card balances were inefficient and redundant, resulting in slow response times and unnecessary manual intervention.  
 **Task**: I needed to simplify the workflows to improve operational efficiency and reduce response times.  
-**Action**: I developed Puppeteer and Axios-based web scrapers to automate the data extraction process. This eliminated redundant steps and reduced manual intervention.  
-**Result**: Operational efficiency increased by **25%**, and API response times improved significantly.
+**Action**: I developed web scrapers using **Puppeteer** and **Axios** to automate the data extraction process. By eliminating redundant queries and streamlining the workflow, I reduced the complexity significantly.  
+**Result**: Operational efficiency improved by **25%**, and API response times were reduced, allowing the system to handle higher traffic seamlessly.
+
+---
+
+### **Question 2**: Tell me about a time when you invented something.
+
+**Answer**:  
+**Situation**: At **E&S Solutions**, I noticed that manually following up with clients for Google reviews was inconsistent and time-consuming, creating a gap in operational efficiency.  
+**Task**: I needed to invent a solution that would automate this follow-up process, ensuring consistency while saving time.  
+**Action**: I built an **AWS Lambda function** integrated with SNS and S3. The function automatically triggered review requests after specific client interactions, removing the need for manual intervention. I also added error handling and logging to ensure reliability.  
+**Result**: The invention reduced manual follow-up efforts by **70%**, improved client review engagement, and allowed the team to focus on higher-priority tasks.
+
+---
+
+### **Question 3**: Tell me about a time when you tried to simplify a process but failed. What would you have done differently?
+
+**Answer**:  
+**Situation**: During my internship at **SDI Labs**, I attempted to simplify the data scraping workflows by combining all scripts into a single monolithic program. My goal was to make maintenance easier and reduce the number of processes running.  
+**Task**: I wanted to unify the web scraping tools to improve code organization and operational efficiency.  
+**Action**: I refactored the existing scrapers into a single script. However, this introduced unintended dependencies, and one script failure caused the entire process to fail. Additionally, performance declined because the unified script could no longer run tasks concurrently.  
+**Result**: The project did not meet expectations, and I had to revert to the previous modular design.  
+
+**What I Would Have Done Differently**:  
+I learned the importance of balancing simplicity with functionality. In the future, I would test incremental changes rather than fully overhauling a working system. I would also leverage containerization tools like **Docker** to maintain modularity while achieving the desired organizational improvements.  
+
+---
+
+### **Key Takeaways**  
+- **Simple Solution**: Streamlined API workflows at **Giftcash**, improving efficiency by **25%**.  
+- **Invented Something**: Automated manual review processes at **E&S Solutions**, saving **70% effort**.  
+- **Learned from Failure**: Realized the importance of incremental changes and modular design during a data scraping project at **SDI Labs**.
 
 ---
 
