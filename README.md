@@ -199,6 +199,7 @@ Contributions are welcome! If you have additional resources, tips, or improvemen
 - [STAR Method for Behavioral Interviews](https://www.thebalancecareers.com/what-is-the-star-interview-response-technique-2061629)
 - [Technical Preparation Cheatsheet](https://github.com/kianis4/AmazonPrep/blob/main/Technical%20Prep/CheatSheet.md)
 - [Amazon Technical Preparation Guide](https://github.com/kianis4/AmazonPrep/blob/main/Technical%20Prep/TechnicalPrep.md)
+- [Quizlet Amazon Leadership principles](https://quizlet.com/ca/986732408/amazon-leadership-principles-flash-cards/?i=69amyn&x=1qqt)
 
 ---
 
