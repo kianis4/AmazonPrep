@@ -37,7 +37,7 @@ Here are 10 common ways to make a system scalable:
 1. **Vertical Scaling (Scale up)**
    - This means adding more power to your existing machines by upgrading servers with more RAM, faster CPUs, or additional storage.
    - It's a good approach for simpler architectures but has limitations in how far you can go.
-    ![Scalability Diagram](/AmazonPrep/Phone%20Interview%20Prep/Systems%20Design/Scalability/1.%20Verticle%20Scaling%20(Scale%20up)%20.webp)
+    ![Scalability Diagram](1.%20Verticle%20Scaling%20(Scale%20up)%20.webp)
 
 2. **Horizontal Scaling (Scale out)**
    - This means adding more machines to your system to spread the workload across multiple servers.
