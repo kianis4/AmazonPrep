@@ -43,26 +43,26 @@ Here are 10 common ways to make a system scalable:
    - This means adding more machines to your system to spread the workload across multiple servers.
    - It's often considered the most effective way to scale for large systems.
    - *Example:* Netflix uses horizontal scaling for its streaming service, adding more servers to their clusters to handle the growing number of users and data traffic.
-    ![Scalability Diagram](/AmazonPrep/Phone%20Interview%20Prep/Systems%20Design/Scalability/2.%20Horizontal%20Scaling%20(Scale%20out)%20.webp)
+    ![Scalability Diagram](2.%20Horizontal%20Scaling%20(Scale%20out)%20.webp)
 3. **Load Balancing**
    - Load balancing is the process of distributing traffic across multiple servers to ensure no single server becomes overwhelmed.
    - *Example:* Google employs load balancing extensively across its global infrastructure to distribute search queries and traffic evenly across its massive server farms.
-    ![Scalability Diagram](/AmazonPrep/Phone%20Interview%20Prep/Systems%20Design/Scalability/3.%20Load%20Balancing.webp)
+    ![Scalability Diagram](3.%20Load%20Balancing.webp)
 4. **Caching**
    - Caching is a technique to store frequently accessed data in-memory (like RAM) to reduce the load on the server or database.
    - Implementing caching can dramatically improve response times.
    - *Example:* Reddit uses caching to store frequently accessed content like hot posts and comments so that they can be served quickly without querying the database each time.
-   ![Scalability Diagram](/AmazonPrep/Phone%20Interview%20Prep/Systems%20Design/Scalability/4.%20Caching.webp)
+   ![Scalability Diagram](4.%20Caching.webp)
 
 5. **Content Delivery Networks (CDNs)**
    - CDN distributes static assets (images, videos, etc.) closer to users. This can reduce latency and result in faster load times.
    - *Example:* Cloudflare provides CDN services, speeding up website access for users worldwide by caching content in servers located close to users.
-    ![Scalability Diagram](/AmazonPrep/Phone%20Interview%20Prep/Systems%20Design/Scalability/5.%20Content%20Delivery%20Networks%20(CDNs)%20.webp)
+    ![Scalability Diagram](5.%20Content%20Delivery%20Networks%20(CDNs)%20.webp)
 
 6. **Partitioning**
    - Partitioning means splitting data or functionality across multiple nodes/servers to distribute workload and avoid bottlenecks.
    - *Example:* Amazon DynamoDB uses partitioning to distribute data and traffic for its NoSQL database service across many servers, ensuring fast performance and scalability.
-    ![Scalability Diagram](/AmazonPrep/Phone%20Interview%20Prep/Systems%20Design/Scalability/6.%20Partitioning.webp)
+    ![Scalability Diagram](6.%20Partitioning.webp)
 
 7. **Asynchronous Communication**
    - Asynchronous communication means deferring long-running or non-critical tasks to background queues or message brokers.
@@ -73,13 +73,13 @@ Here are 10 common ways to make a system scalable:
    - Microservices architecture breaks down applications into smaller, independent services that can be scaled independently.
    - This improves resilience and allows teams to work on specific components in parallel.
    - *Example:* Uber has evolved its architecture into microservices to handle different functions like billing, notifications, and ride matching independently, allowing for efficient scaling and rapid development.
-    ![Scalability Diagram](/AmazonPrep/Phone%20Interview%20Prep/Systems%20Design/Scalability/8.%20Microservices%20Architecture.webp)
+    ![Scalability Diagram](8.%20Microservices%20Architecture.webp)
 
 9. **Auto-Scaling**
    - Auto-Scaling means automatically adjusting the number of active servers based on the current load.
    - This ensures that the system can handle spikes in traffic without manual intervention.
    - *Example:* AWS Auto Scaling monitors applications and automatically adjusts capacity to maintain steady, predictable performance at the lowest possible cost.
-    ![Scalability Diagram](/AmazonPrep/Phone%20Interview%20Prep/Systems%20Design/Scalability/9.%20Auto-Scaling.webp)
+    ![Scalability Diagram](9.%20Auto-Scaling.webp)
 
 10. **Multi-region Deployment**
     - Deploy the application in multiple data centers or cloud regions to reduce latency and improve redundancy.
